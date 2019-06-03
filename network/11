@@ -1,0 +1,5 @@
+#Use traceroute
+#From Wikipedia 'La fonction NAT dans un routeur de service intégré (ISR) traduit une adresse IP source interne en adresse IP globale.'
+#So the answer is (?)
+
+nat 10.60.1.11
