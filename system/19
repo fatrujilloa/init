@@ -1,0 +1,29 @@
+#systemctl list-unit-files --type=service | grep "enabled" | awk -F'.service' '{print $1}'
+
+Type: Daemon
+
+anacron
+autovt@
+console-setup
+cron
+dbus-org.freedesktop.Avahi
+dbus-org.freedesktop.ModemManager1
+dbus-org.freedesktop.nm-dispatcher
+display-manager
+petty@
+keyboard-setup
+lightdm
+lm-sensors
+ModemManager
+network-manager
+networking
+NetworkManager-dispatcher
+NetworkManager-wait-online
+NetworkManager
+pppd-dns
+rsyslog
+rtkit-daemon
+ssh
+sshd
+syslog
+systemd-timesyncd
